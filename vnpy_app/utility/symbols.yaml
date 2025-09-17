@@ -1,0 +1,455 @@
+symbols:
+  # ---------- CFFEX ----------
+  IC:
+    name: 中证500
+    exchange: CFFEX
+    category: equity
+    price_tick: 0.2
+    contract_multiplier: 200
+    fee: 0.000023
+    is_rate: true
+    is_locked: true
+    is_free: false
+
+  IF:
+    name: 沪深300
+    exchange: CFFEX
+    category: equity
+    price_tick: 0.2
+    contract_multiplier: 300
+    fee: 0.000023
+    is_rate: true
+    is_locked: true
+    is_free: false
+
+  IH:
+    name: 上证50
+    exchange: CFFEX
+    category: equity
+    price_tick: 0.2
+    contract_multiplier: 300
+    fee: 0.000023
+    is_rate: true
+    is_locked: true
+    is_free: false
+
+  IM:
+    name: 中证1000
+    exchange: CFFEX
+    category: equity
+    price_tick: 0.2
+    contract_multiplier: 200
+    fee: 0.000023
+    is_rate: true
+    is_locked: true
+    is_free: false
+
+  TF:
+    name: 5年期国债
+    exchange: CFFEX
+    category: bond
+    price_tick: 0.005
+    contract_multiplier: 10000
+    fee: 3
+    is_rate: false
+    is_locked: false
+    is_free: true
+
+  T:
+    name: 10年期国债
+    exchange: CFFEX
+    category: bond
+    price_tick: 0.005
+    contract_multiplier: 10000
+    fee: 3
+    is_rate: false
+    is_locked: false
+    is_free: true
+
+  # ---------- CZCE ----------
+  CF:
+    name: 棉花
+    exchange: CZCE
+    category: agriculture
+    price_tick: 5
+    contract_multiplier: 5
+    fee: 4.3
+    is_rate: false
+    is_locked: false
+    is_free: true
+
+  FG:
+    name: 玻璃
+    exchange: CZCE
+    category: chemical
+    price_tick: 1
+    contract_multiplier: 20
+    fee: 6
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  MA:
+    name: 甲醇
+    exchange: CZCE
+    category: chemical
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 0.0001
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  OI:
+    name: 菜籽油
+    exchange: CZCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 2
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  RM:
+    name: 菜籽粕
+    exchange: CZCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 1.5
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  SF:
+    name: 硅铁
+    exchange: CZCE
+    category: ferrous_metal
+    price_tick: 2
+    contract_multiplier: 5
+    fee: 12
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  SM:
+    name: 锰硅
+    exchange: CZCE
+    category: nonferrous_metal
+    price_tick: 2
+    contract_multiplier: 5
+    fee: 3
+    is_rate: false
+    is_locked: true
+    is_free: false
+
+  SR:
+    name: 白糖
+    exchange: CZCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 3
+    is_rate: false
+    is_locked: false
+    is_free: true
+
+  TA:
+    name: PTA
+    exchange: CZCE
+    category: chemical
+    price_tick: 2
+    contract_multiplier: 5
+    fee: 3
+    is_rate: false
+    is_locked: false
+    is_free: true
+
+  WH:
+    name: 强麦
+    exchange: CZCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 20
+    fee: 30
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  # ---------- DCE ----------
+  A:
+    name: 豆一
+    exchange: DCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 2
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  C:
+    name: 玉米
+    exchange: DCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 1.2
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  CS:
+    name: 玉米淀粉
+    exchange: DCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 1.5
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  I:
+    name: 铁矿石
+    exchange: DCE
+    category: ferrous_metal
+    price_tick: 0.5
+    contract_multiplier: 100
+    fee: 0.0001
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  J:
+    name: 焦炭
+    exchange: DCE
+    category: ferrous_metal
+    price_tick: 0.5
+    contract_multiplier: 100
+    fee: 0.0001
+    is_rate: true
+    is_locked: true
+    is_free: false
+
+  JD:
+    name: 鸡蛋
+    exchange: DCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 0.00015
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  JM:
+    name: 焦煤
+    exchange: DCE
+    category: ferrous_metal
+    price_tick: 0.5
+    contract_multiplier: 60
+    fee: 0.0001
+    is_rate: true
+    is_locked: true
+    is_free: false
+
+  L:
+    name: 塑料
+    exchange: DCE
+    category: chemical
+    price_tick: 1
+    contract_multiplier: 5
+    fee: 1
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  M:
+    name: 豆粕
+    exchange: DCE
+    category: agriculture
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 1.5
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  P:
+    name: 棕榈油
+    exchange: DCE
+    category: agriculture
+    price_tick: 2
+    contract_multiplier: 10
+    fee: 2.5
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  PP:
+    name: 聚丙烯
+    exchange: DCE
+    category: chemical
+    price_tick: 1
+    contract_multiplier: 5
+    fee: 1
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  V:
+    name: 聚氯乙烯
+    exchange: DCE
+    category: chemical
+    price_tick: 1
+    contract_multiplier: 5
+    fee: 1
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  Y:
+    name: 豆油
+    exchange: DCE
+    category: agriculture
+    price_tick: 2
+    contract_multiplier: 10
+    fee: 2.5
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  # ---------- SHFE ----------
+  AG:
+    name: 白银
+    exchange: SHFE
+    category: precious_metal
+    price_tick: 1
+    contract_multiplier: 15
+    fee: 0.00005
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  AL:
+    name: 铝
+    exchange: SHFE
+    category: nonferrous_metal
+    price_tick: 5
+    contract_multiplier: 5
+    fee: 3
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  AU:
+    name: 黄金
+    exchange: SHFE
+    category: precious_metal
+    price_tick: 0.02
+    contract_multiplier: 1000
+    fee: 10
+    is_rate: false
+    is_locked: false
+    is_free: false
+
+  BU:
+    name: 沥青
+    exchange: SHFE
+    category: chemical
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 0.00005
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  CU:
+    name: 铜
+    exchange: SHFE
+    category: nonferrous_metal
+    price_tick: 10
+    contract_multiplier: 5
+    fee: 0.00005
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  HC:
+    name: 热轧卷板
+    exchange: SHFE
+    category: ferrous_metal
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 0.0001
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  NI:
+    name: 镍
+    exchange: SHFE
+    category: nonferrous_metal
+    price_tick: 10
+    contract_multiplier: 1
+    fee: 3
+    is_rate: false
+    is_locked: true
+    is_free: false
+
+  PB:
+    name: 铅
+    exchange: SHFE
+    category: nonferrous_metal
+    price_tick: 5
+    contract_multiplier: 5
+    fee: 0.00004
+    is_rate: true
+    is_locked: false
+    is_free: true
+
+  RB:
+    name: 螺纹钢
+    exchange: SHFE
+    category: ferrous_metal
+    price_tick: 1
+    contract_multiplier: 10
+    fee: 0.0001
+    is_rate: true
+    is_locked: false
+    is_free: false
+
+  RU:
+    name: 天然橡胶
+    exchange: SHFE
+    category: agriculture
+    price_tick: 5
+    contract_multiplier: 10
+    fee: 3
+    is_rate: false
+    is_locked: true
+    is_free: false
+
+  SN:
+    name: 锡
+    exchange: SHFE
+    category: nonferrous_metal
+    price_tick: 10
+    contract_multiplier: 1
+    fee: 3
+    is_rate: false
+    is_locked: true
+    is_free: false
+
+  ZN:
+    name: 锌
+    exchange: SHFE
+    category: nonferrous_metal
+    price_tick: 5
+    contract_multiplier: 5
+    fee: 3
+    is_rate: false
+    is_locked: false
+    is_free: true
