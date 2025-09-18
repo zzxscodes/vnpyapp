@@ -3,7 +3,7 @@ from time import sleep
 from vnpy.event import EventEngine
 from vnpy.trader.engine import MainEngine
 from vnpy.trader.event import EVENT_ACCOUNT
-from vnpy_app.vnpy_ctp.vnpy_ctp import CtpGateway
+from vnpy_ctp import CtpGateway
 
 
 class AccountQueryDemo:
